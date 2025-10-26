@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SolusiAksi — Suara & Aksi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>SolusiAksi</h1>
+      <p class="tagline">Suara solusi buat masalah harian & bisnis — action > talk.</p>
+      <nav class="links">
+        <a href="#episodes">Episode</a>
+        <a href="#ebook">eBook & Produk</a>
+        <a href="#about">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="episodes" class="card">
+      <h2>Episode Suara</h2>
+      <p>Konten: hanya suara. Tips praktis + langkah nyata.</p>
+
+      <div id="player-list">
+        <!-- Example episode -->
+        <article class="episode">
+          <h3>Episode 01 — Solusi pagi produktif</h3>
+          <audio controls preload="none">
+            <source src="audio/episode01.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <p class="desc">Ringkas, actionable: 3 langkah biar gak telat tiap hari.</p>
+        </article>
+      </div>
+
+      <p class="hint">Mau upload audio? Simpan di folder <code>/audio</code> lalu edit HTML.</p>
+    </section>
+
+    <section id="ebook" class="card">
+      <h2>eBook & Produk Digital</h2>
+      <p>Jual eBook, template, checklist — tinggal link ke file atau toko digital.</p>
+      <a class="btn" href="https://toko.example.com" target="_blank" rel="noopener">Beli eBook</a>
+    </section>
+
+    <section id="about" class="card">
+      <h2>Tentang SolusiAksi</h2>
+      <p>Suara-only content, solusi nyata dari masalah sehari-hari sampai bisnis kecil.
+      Kamu yang pegang kunci: repo GitHub milikmu — link publik di <code>username.github.io/solusiact_site</code>.</p>
+
+      <h3>Kontrol & Update</h3>
+      <ol>
+        <li>Buka repo GitHub — edit file langsung atau push via Git.</li>
+        <li>Upload audio ke folder <code>/audio</code> dan tambahkan entry di <code>index.html</code>.</li>
+        <li>Untuk link eBook, ganti URL tombol 'Beli eBook'.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© SolusiAksi — Suara & Aksi • Follow @SolusiAksi</p>
+      <p class="small">Built simple — editable. README ada di repo.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
